@@ -1,0 +1,10 @@
+Concessionario di auto usate
+
+ID	numero	incr	PRI_KEY UNIQUE AI
+Marca	stringa	varchar(20)	NOT NULL
+Modello	stringa	varchar(20)	NOT NULL
+Anno_immatricolazione	data	year	
+Kilometri	numero	small_int	
+Prezzo	numero	float (8,2)	NOT_NULL
+Anni_garanzia	numero	tinyint	DEFAULT(0)
+Foto	boolean	tinyint	DEFAULT(0)
